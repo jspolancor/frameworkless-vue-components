@@ -1,6 +1,6 @@
 # Frameworkless vue components
 
-How to reuse vue components in another frameworks.
+How to reuse vue components in another frameworks 💻
 
 ## Web components
 
@@ -26,9 +26,24 @@ The only framework that compiles to native web components is ![Polymer](https://
 
 With it you can use vue components wherever you want 💃
 
+## Requirements   
+
+All the demos use webpack.
+If your're not using webpack you can read the ![vue-custom-element docs](https://github.com/karol-f/vue-custom-element)
+
+- webpack
+- vue
+- vue-custom-element 
+- vue-loader
+- vue-style-loader
+- vue-template-compiler
+- css-loader
+- sass-loader
+- node-sass
+
 ## Demos
 
-In this repo I created a small demo of how to use vue components in all of this frameworks:
+There's one demo for each of this frameworks
 
 ### React 
 
@@ -44,4 +59,12 @@ node server.js
 cd vanilla
 npm install
 npm start
+```
+
+### Backbone
+
+```bash
+cd backbone
+yarn install
+yarn dev
 ```
