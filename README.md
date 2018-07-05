@@ -14,7 +14,7 @@ and utilize them in your web apps:
 
 Most frameworks implement their own components approach.
 
-The only framework that compiles to native web components is ![Polymer](https://www.polymer-project.org/).
+The only framework that compiles to native web components is [Polymer](https://www.polymer-project.org/).
 
 ![Polymer](img/polymer.png)
 
@@ -29,7 +29,7 @@ With it you can use vue components wherever you want 💃
 ## Requirements   
 
 All the demos use webpack.
-If your're not using webpack you can read the ![vue-custom-element docs](https://github.com/karol-f/vue-custom-element)
+If your're not using webpack you can read the [vue-custom-element docs](https://github.com/karol-f/vue-custom-element)
 
 - webpack
 - vue
