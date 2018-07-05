@@ -10,8 +10,8 @@ import BigTitle from '../../vue-components/BigTitle/BigTitle.vue';
 
 // register vue components globally
 Vue.use(vueCustomElement);
-Vue.customElement('skeleton-paragraph', Paragraph);
-Vue.customElement('skeleton-title', BigTitle );
+Vue.customElement('custom-paragraph', Paragraph);
+Vue.customElement('custom-title', BigTitle );
 
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(

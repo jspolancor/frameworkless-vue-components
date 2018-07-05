@@ -22,7 +22,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
-        <skeleton-title title={this.state.title} text={this.state.text}></skeleton-title>
+        <custom-title title={this.state.title} text={this.state.text}></custom-title>
         <button
           onClick={() => {
             this.setState({ count: this.state.count + 1 });
@@ -30,7 +30,7 @@ class Counter extends React.Component {
         >
           +
         </button>
-        <skeleton-paragraph content={this.state.count}></skeleton-paragraph>
+        <custom-paragraph content={this.state.count}></custom-paragraph>
       </div>      
     );
   }
