@@ -1,0 +1,9 @@
+:local {
+    $text-color: red;
+    $font-size: 2em;
+
+    .component{
+        color: $text-color;
+        font-size: $font-size;
+    }
+}
